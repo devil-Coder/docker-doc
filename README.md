@@ -1,2 +1,28 @@
-# docker-doc
-A Get Started tool
+
+# Getting Started with Docker
+
+> [See this video for installation](https://www.youtube.com/watch?v=S7NVloq0EBc)
+
+> Get stated with `docker run hello-world`
+
+```
+## List Docker CLI commands
+docker
+docker container --help
+
+## Display Docker version and info
+docker --version
+docker version
+docker info
+
+## Execute Docker image
+docker run hello-world
+
+## List Docker images
+docker image ls
+
+## List Docker containers (running, all, all in quiet mode)
+docker container ls
+docker container ls --all
+docker container ls -aq
+```
