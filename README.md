@@ -83,7 +83,7 @@ docker build -t <username>/<image-tag>
             * Click Advanced -> Port Forwarding
             * Add rule: Protocol TCP, Host Port 8080
          * App will be available on your docker's IP which is `192.xx.xx.xx:<PORT_NUMBER>`
-         * To get the output in localhost:3000, do the following ```https://stackoverflow.com/a/36458215/7335056```
+         * To get the output in localhost:3000, [see this answer](https://stackoverflow.com/a/36458215/7335056)
     * Print the output of your app:
        ```
         # Get container ID
