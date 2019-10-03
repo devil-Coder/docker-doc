@@ -5,7 +5,7 @@
 
 > Get stated with `docker run hello-world`
 
-```
+
 ## List Docker CLI commands
 docker
 docker container --help
